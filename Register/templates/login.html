@@ -42,14 +42,15 @@
             cursor: pointer;
         }
     </style>
-
-    <h1>Login</h1>
-    <form action="/registrasi" method="POST">
-        <label for="username">Username</label><br>
-        <input type="text" name="username" id="username" placeholder="create your name" /><br>
-        <label for="password">Password</label><br>
-        <input type="password" name="password" id="password" placeholder="create a strong password" /><br>
-        <input type="submit" value="Login" />
+    <fieldset>
+        <form action="/login" method="POST">
+            <legend>Login</legend>
+            <label for="username">Username</label><br>
+            <input type="text" name="username" id="username" placeholder="create your name" /><br>
+            <label for="password">Password</label><br>
+            <input type="password" name="password" id="password" placeholder="create a strong password" /><br>
+            <input type="submit" value="Login" />
+    </fieldset>
 </body>
 
 </html>
