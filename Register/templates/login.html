@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+</head>
+
+<body>
+    <style>
+        fieldset {
+            text-align: center;
+            font-size: 30px;
+            font-style: italic;
+            margin: 0 auto;
+            width: 0%;
+            border-radius: 10px;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 300px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            color: hsl(0, 0%, 20%);
+        }
+
+        input[type="submit"] {
+            width: 320px;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            background-color: #477bff;
+            color: aliceblue;
+            cursor: pointer;
+        }
+    </style>
+
+    <h1>Login</h1>
+    <form action="/registrasi" method="POST">
+        <label for="username">Username</label><br>
+        <input type="text" name="username" id="username" placeholder="create your name" /><br>
+        <label for="password">Password</label><br>
+        <input type="password" name="password" id="password" placeholder="create a strong password" /><br>
+        <input type="submit" value="Login" />
+</body>
+
+</html>
